@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Social Media Dashboard</title>
+  </head>
+  <body>
+    <!-- Title -->
+
+    <section class="navbar">
+      <div class="banner"></div>
+      <div class="container showcase">
+        <div class="name">
+          <h1>Social Media Dahsboard</h1>
+          <h3>Total Followers: 23,004</h3>
+        </div>
+        <div class="mode">
+          <h3>Dark Mode</h3>
+          <input type="checkbox" class="checkbox" id="chx" />
+          <label class="label" for="chx">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dashboard Overview -->
+    <section class="overview">
+      <div class="container grid">
+        <div class="fb card">
+          <div class="decor"></div>
+          <div class="logo">
+            <img src="/assets/fb.png" alt="" />
+            <h4>@nakula</h4>
+          </div>
+          <div class="followers text-center">
+            <h1>1987</h1>
+            <h4>F O L L O W E R S</h4>
+          </div>
+          <div class="growth text-center">
+            <img src="/assets/green.png" alt="" />
+            <h4>12 Today</h4>
+          </div>
+        </div>
+        <div class="twitter card">
+          <div class="decor"></div>
+          <div class="logo">
+            <img src="/assets/twit.png" alt="" />
+            <h4>@nakula</h4>
+          </div>
+          <div class="followers text-center">
+            <h1>1044</h1>
+            <h4>F O L L O W E R S</h4>
+          </div>
+          <div class="growth text-center">
+            <img src="/assets/green.png" alt="" />
+            <h4>99 Today</h4>
+          </div>
+        </div>
+        <div class="ig card">
+          <div class="decor"></div>
+          <div class="logo">
+            <img src="/assets/ig.png" alt="" />
+            <h4>@nakula</h4>
+          </div>
+          <div class="followers text-center">
+            <h1>11k</h1>
+            <h4>F O L L O W E R S</h4>
+          </div>
+          <div class="growth text-center">
+            <img src="/assets/green.png" alt="" />
+            <h4>1099 Today</h4>
+          </div>
+        </div>
+        <div class="yt card">
+          <div class="decor"></div>
+          <div class="logo">
+            <img src="/assets/yutub.png" alt="" />
+            <h4>Nakudevs</h4>
+          </div>
+          <div class="followers text-center">
+            <h1>8239</h1>
+            <h4>S U B S C R I B E R S</h4>
+          </div>
+          <div class="growth text-center">
+            <img src="/assets/redarrow.png" alt="" />
+            <h4>144 Today</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Today Overview -->
+    <section class="todayOverview">
+      <div class="container head">
+        <h2>Overview - Today</h2>
+      </div>
+      <div class="container grid">
+        <div class="fbPageView smcard">
+          <div class="cardTitle">
+            <h4>Page Views</h4>
+            <img src="/assets/fb.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">87</div>
+            <div class="stats text-growth">
+              <img src="/assets/green.png" alt="" />
+              <h4>3%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="fbLikes smcard">
+          <div class="cardTitle">
+            <h4>Likes</h4>
+            <img src="/assets/fb.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">52</div>
+            <div class="stats text-decline">
+              <img src="/assets/redarrow.png" alt="" />
+              <h4>2%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="igLikes smcard">
+          <div class="cardTitle">
+            <h4>Likes</h4>
+            <img src="/assets/ig.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">5462</div>
+            <div class="stats text-growth">
+              <img src="/assets/green.png" alt="" />
+              <h4>2257%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="igProfileView smcard">
+          <div class="cardTitle">
+            <h4>Profile Views</h4>
+            <img src="/assets/ig.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">52k</div>
+            <div class="stats text-growth">
+              <img src="/assets/green.png" alt="" />
+              <h4>1375%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="twRetweet smcard">
+          <div class="cardTitle">
+            <h4>Retweets</h4>
+            <img src="/assets/twit.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">117</div>
+            <div class="stats text-growth">
+              <img src="/assets/green.png" alt="" />
+              <h4>303%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="twLikes smcard">
+          <div class="cardTitle">
+            <h4>Likes</h4>
+            <img src="/assets/twit.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">507</div>
+            <div class="stats text-growth">
+              <img src="/assets/green.png" alt="" />
+              <h4>553%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="ytLikes smcard">
+          <div class="cardTitle">
+            <h4>Likes</h4>
+            <img src="/assets/yutub.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">107</div>
+            <div class="stats text-decline">
+              <img src="/assets/redarrow.png" alt="" />
+              <h4>19%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="ytViews smcard">
+          <div class="cardTitle">
+            <h4>Total Views</h4>
+            <img src="/assets/yutub.png" alt="" />
+          </div>
+          <div class="cardNumber">
+            <div class="total">1407</div>
+            <div class="stats text-decline">
+              <img src="/assets/redarrow.png" alt="" />
+              <h4>12%</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
